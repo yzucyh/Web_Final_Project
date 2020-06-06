@@ -1,0 +1,77 @@
+/*body
+{
+    text-align: center;
+}
+canvas{
+    border: 2px solid black;
+    background-image: url(images/grasses68.gif);
+}
+#talkbox{
+    height: 20px;
+    color: brown;
+    font-size: 26px;
+    font-weight: bold;
+}*/
+
+*{
+    padding:0px;
+    margin: 0;
+}
+
+#game{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 100px;
+    background-color: blanchedalmond;
+}
+
+#character{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 350px;
+    margin-bottom: 1px;
+}
+.animate{
+    animation: jump 500ms ;
+}
+@keyframes jump{
+    0%{top:150px;}
+    30%{top: 100px;}
+    70%{top:100px;}
+    100%{top:150px;}
+}
+#point{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    top:350px;
+    left:1000px;
+    position: relative;
+    animation: point 1.5s infinite linear;
+}
+@keyframes point{
+    0%{left:800px;}
+    100%{left:-100px;}
+}
+
+#cloud{
+    width: 600px;
+    height: 200px;
+}
+
+#press{
+    margin-left: 500px;
+    margin-bottom: 200px;
+}
+
+#count{
+    font-size: 30px;
+    margin-left: 590px;
+    color: red;
+}
+
+#d{
+    margin-left: 550px;
+}

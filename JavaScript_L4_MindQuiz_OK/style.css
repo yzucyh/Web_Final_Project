@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    color: black;
+}
+#container-marketing{
+    background-color: rosybrown;
+}
+
+#startButton{
+    margin-top: 20px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: black;
+}
+
+#h{
+    font-size: 80px;
+    font-family:Microsoft JhengHei;
+}

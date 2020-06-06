@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+#choices li{
+    text-align: left;
+    font-size: 26px;
+}
+h1{
+    margin-top: 40px;
+}
+.t{
+    text-align: center;
+}
+tr{
+    text-align: center;
+}
+table{
+    position: absolute;
+    margin-left: 900px;
+    margin-bottom: 850px;
+}

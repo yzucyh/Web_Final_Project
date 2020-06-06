@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    font-family:Microsoft JhengHei;
+}
+ 
+table{
+    width: 60%;
+    margin: auto;
+    font-size: 1.5em;
+    border: 5px solid blue;
+}
+ 
+td{
+    border-top: 1px solid blue;
+}
+ 
+th{
+    border-top: red;
+    border: 2px solid red;
+}
+
+input{
+    margin-top: 20px;
+}

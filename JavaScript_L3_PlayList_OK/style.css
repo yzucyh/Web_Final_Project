@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+h2{
+    height: 32px;
+}
+.player{
+    margin-top:400px;
+}
+.pause{
+    border-radius: 10px;
+}
