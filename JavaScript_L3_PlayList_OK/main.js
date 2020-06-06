@@ -30,7 +30,7 @@ function onPlayerReady(event){
         $("h2").text(player.getVideoData().title);
         player.playVideo();
     });
-    $('#pause').click( function(){
+    $('#pause').click(function(){
         // Checks for the video is playing or not.
             player.pauseVideo(); // 'player' variable we already defined and assigned.
     });
